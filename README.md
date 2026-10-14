@@ -5,7 +5,7 @@ A practical laboratory for learning **ARM Cortex-M**, **Quantum Leaps QP/C++**, 
 **Initial reference board:** ST **NUCLEO-L152RE** (STM32L152RE, Cortex-M3).  
 **First milestone:** build, flash, and understand Quantum Leaps' official **Dining Philosophers Problem (DPP)** example **without modifying its application code**.
 
-This repository starts with documentation, **not a claim that DPP has already been built or run**.
+**Baseline achieved (2026-10-14):** the unmodified official DPP/QV example was built, programmed, verified and observed running on NUCLEO-L152RE. Next: capture QS/QSpy trace output.
 
 ## Why this project?
 
@@ -63,4 +63,4 @@ The **production MCU is not selected**. NUCLEO-L152RE is an experimental platfor
 
 ## Status
 
-**Documentation initialized. No toolchain, QP example, firmware, current consumption, or LoRa hardware has yet been validated in this repository.**
+**DPP/QV built and flashed successfully; LD2 observed flashing green.** See [lab log](docs/lab-log.md) for exact versions, commands and observed behaviour. **QSpy trace, debugger operation, power measurements and LoRa hardware remain unverified.**
